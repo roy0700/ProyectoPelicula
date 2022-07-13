@@ -11,12 +11,21 @@
 	<header>
 		<div class="contenedor">
 			<h2 class="logotipo">MARVEL</h2>
-			<nav>
-				<a href="#" class="activo">Inicio</a>
-				<a href="#">Programas</a>
-				<a href="#">Películas</a>
-				<a href="#">Más Recientes</a>
-				<a href="#">Mi lista</a>
+			<nav class="menu">
+				<ul class="navbar" id="navbar">
+					<li><a href="#">Inicio</a></li>
+					<li><a href="#">Programas</a></li>
+					<li><a href="#">Peliculas</a></li>
+					<li><a href="#">Mas Reciente</a></li>
+					<li><a href="#">Mi Lista</a></li>
+					<a class="close" href="#">
+						<img src="https://ljc-dev.github.io/testing0/ham-close.svg" alt="close">
+					</a>
+	
+				</ul>
+					<a class="hamburger" href="#navbar">
+						<img src="https://ljc-dev.github.io/testing0/ham.svg" alt="menu">
+					</a>
 			</nav>
 		</div>
 	</header>
@@ -24,7 +33,7 @@
 	<main>
 		<div class="pelicula-principal">
 			<div class="contenedor">
-				<h3 class="titulo">Thor:Amor y Trueno</h3>
+				<h3 class="titulo">THOR: Amor y Trueno</h3>
 				<p class="descripcion">
 					Thor retoma la acción tras los sucesos ocurridos en Vengadores: Endgame. El dios del trueno decide retirarse y después de abadonar la Nueva Asgard y dejarla en manos de Valquiria (Tessa Thompson), Thor se marcha junto a los Guardianes de la Galaxia en un viaje que le lleva a plantearse su vida y su propia existencia. Pero este momento no le podrá durar mucho, ya que rápidamente tendrá que volver a la acción para enfrentarse a Gorr, un villano que ha planeado asesinar a todos los dioses. Pero esta no será la única casuística a la que tendrá que hacer frente el dios del trueno, por si fuera poco, su ex Jane Foster, quien ahora es la portadora del Mjölnir, también entra en escena</p>
 				<button role="button" class="boton"><i class="fas fa-play"></i>Reproducir</button>
@@ -32,7 +41,8 @@
 			</div>
 		</div>
 	</main>
-	
+	<script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
+	<script src="js/main.js"></script>
 	
 </body>
 </html>

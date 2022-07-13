@@ -1,6 +1,6 @@
 :root {
 	--rojo: #E50914;
-	--fondo: #141414;
+	--fondo: #1d1717;
 }
 
 * {
@@ -34,6 +34,34 @@ header .logotipo {
 	font-weight: normal;
 	color: var(--rojo);
 	font-size: 40px;
+}
+
+.menu ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.menu li{
+    margin-right: 65px;
+}
+
+.menu li:last-child{
+    margin-right: 0;
+}
+
+.menu a{
+    color: var(--plomo);
+    font-size: 16px; /*tamaño de Fuente*/
+    text-transform: capitalize; /*Mayusculas*/
+}
+
+.menu a:hover{
+    color: white;
+}
+
+.close, .hamburger{
+    display: none;
 }
 
 header nav a {
